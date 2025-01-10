@@ -13,11 +13,11 @@ x = 70
 if x < 50 :
     print("lebih kecil dari 50")
     if x < 20 or x > 30:
-    print("Lebih dari 20 atau lebih besar dari 30")
+        print("Lebih dari 20 atau lebih besar dari 30")
 elif x > 50 :
     print("Lebih besar dari 50")
     if x > 60 and x < 80:
-    print("Lebih besar dari 60 dan kurang dari 50")
+        print("Lebih besar dari 60 dan kurang dari 50")
 
 if x != 50:
     print("Bukan 50")
