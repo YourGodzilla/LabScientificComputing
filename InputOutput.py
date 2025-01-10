@@ -5,5 +5,5 @@ print(x)
 print(type(x))
 
 y = int(input("Enter a number : "))
-print(x, end="")
+print(y, end="")
 print(type(y))
