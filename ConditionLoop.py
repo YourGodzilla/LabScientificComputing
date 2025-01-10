@@ -1,25 +1,45 @@
-def greet():
-  print("Hello")
+# Condition
+# if
+# else
+# else if => elif
+# else
 
-def add(a, b):
-  return a + b
+# && => and
+# || => or
+# ! => not
 
-greet()
-result = add(3, 2)
-print(result)
+x = 70
+# indentation
+if x < 50 :
+    print("lebih kecil dari 50")
+    if x < 20 or x > 30:
+        print("Lebih dari 20 atau lebih besar dari 30")
+elif x > 50 :
+    print("Lebih besar dari 50")
+    if x > 60 and x < 80:
+        print("Lebih besar dari 60 dan kurang dari 50")
 
-word = "good morning"
-word = word.upper()
-word = word.lower()
-word = word.capitalize()
-word = word.title()
+if x != 50:
+    print("Bukan 50")
 
-len(word)
-print(word.count("o"))
-
-if word.isnumeric():
-    print("word is numeric")
+udaMandi = False
+if not udaMandi:
+    print("ih bau")
 else:
-    print("word is not numeric")
+    print("udh wangi")
 
-word
+
+for i in range(10):
+    print(i)
+
+print(" ")
+
+# start, end , step
+for j in range(5, 10, 1):
+    print(j)
+
+print(" ")
+
+# reverse
+for k in range(10, 0, -2):
+    print(k)
